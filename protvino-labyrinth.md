@@ -1,0 +1,29 @@
+# Protvino labyrinth benchmark ALARAM-CF-AIR-LAB-001
+
+A californium-252 neutron source of intensity $5.66 \cdot 10^8$ n/s is located on entrance to 3-section concrete labyrinth [1].
+The goal is computation of a neutron flux linear fuctional which relates to the Bonner sphere detector count rates.
+Those are considered Case 5A with 2 polyethylene plates in 2nd section and Case 6B with the covered source and the death end.
+
+Computable flux functional - pulse rate by the detector response function is taken from the benchmark data for the case of 5 in. polyethylene sphere diameter.
+
+Thicknesses of volumetric detectors are equal to 10 cm.
+Results of two 11.2 hours computations ran in the same time are given in Figures 3-5.
+
+|![](plots/labyrinth-protvino/case5A.png)|
+|:--:|
+| Figure 3: Global plot of count rates spatial distribution for Case 5A, pulse/sec |
+
+|![](plots/labyrinth-protvino/case5A-2.png)|
+|:--:|
+| Figure 4: Local plot of count rates spatial distribution for Case 5A, pulse/sec |
+
+|![](plots/labyrinth-protvino/case6B.png)|
+|:--:|
+| Figure 4: Plot of count rates spatial distribution rates for Case 6B, pulse/sec |
+
+[Back to top](shielding-evaluations.md)
+
+# References
+1. Mark Nikolaev, Natalia Prokhorova, Tatiana Ivanova, “Neutron Fields in Three-Section Concrete 
+Labyrinth from Cf-252 Source,” ALARAM-CF-AIR-LAB-001, “International Handbook of Evaluated Criticality 
+Safety Benchmark Experiments,” OECD Nuclear Energy Agency, NEA-1486/19, 2021 (DVD).
