@@ -3,7 +3,7 @@
 
 # Anthill toy model
 
-This model imitates a hypothetical large spent fuel dry storage. It has heterogeneous concrete shield including lots of labyrinths, rooms, and cavities of intractable configurations. An interesting feauture of the designed problem is the relatively strong attenuation of dose rates for both neutrons and gamma radiation which magnitudes achieves $10^{-15} - 10^{-19}$. In combination within a large heterogoneous self-shielded source, that make this problem to be enough for practicing in variance reduction techniques for full-scale shielding evaluations.
+This model imitates a hypothetical large spent fuel dry storage. It has heterogeneous concrete shield including lots of labyrinths, rooms, and cavities of intractable configurations. An interesting feauture of the designed problem is the relatively strong attenuation of dose rates for both neutrons and gamma radiation which magnitudes achieve $10^{-15} - 10^{-19}$. In combination within a large heterogoneous self-shielded source, that make this problem suitable for practicing in variance reduction techniques for full-scale shielding evaluations.
 
 The model is based on a regular $61 \times 61$ lattice of $25 \times 25 \times 410$ cm prisms. In the middle $21 \times 21$ cells fragment, 441 PWR spent fuel assemblies form the Castor-V/21 [model](castor-v21.md) are placed. The reminded part of the model is a complex heterogenous shield and its prisms are filled by either concrete or air (see Figure 1). In total, shield thickness in each side direction are 500 cm, shield thickness of the monolite concrete slab in the top direction is 400 cm.
 
@@ -12,7 +12,7 @@ The model is based on a regular $61 \times 61$ lattice of $25 \times 25 \times 4
 | Figure 1: Horizontal model cross-section |
 
 Computed flux functional - ambient equivalent dose H*(10) [1] rates, thickness of volumetric detectors are 100 cm.
-Below, some results of neutron-gamma and gamma problems 19.9 hours long computation are presented.
+Below, some results of neutron-gamma and gamma problems 24.3 hours long computation are presented.
 
 |![](plots/anthill/n_1.png)|
 |:--:|
