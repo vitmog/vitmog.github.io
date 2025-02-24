@@ -12,7 +12,7 @@ The model is based on a regular $61 \times 61$ lattice of $25 \times 25 \times 4
 | Figure 1: Horizontal model cross-section |
 
 Computed flux functional - ambient equivalent dose H*(10) [1] rates, thickness of volumetric detectors are 100 cm.
-Below, some results of neutron-gamma and gamma problems 19.9 hours long computation are presented.
+Below, some results of neutron-gamma and gamma problems 24.3 hours long computation are presented.
 
 |![](plots/anthill/n_1.png)|
 |:--:|
