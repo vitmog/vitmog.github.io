@@ -1,7 +1,7 @@
 
-[Prev](castor-v21.md) [**.....**](shielding-evaluations.md)
+[Prev](castor-v21.md) [**.....**](shielding-evaluations.md) [Next](anthill-steel.md)
 
-# Anthill toy model
+# Concrete Anthill toy model
 
 This model imitates a hypothetical large spent fuel dry storage. It has heterogeneous concrete shield including lots of labyrinths, rooms, and cavities of intractable configurations. An interesting feauture of the designed problem is the relatively strong attenuation of dose rates for both neutrons and gamma radiation which magnitudes achieve $10^{-15} - 10^{-19}$. In combination within a large heterogoneous self-shielded source, that make this problem suitable for practicing in variance reduction techniques for full-scale shielding evaluations.
 
@@ -26,7 +26,7 @@ Below, some results of neutron-gamma and gamma problems 24.3 hours long computat
 |:--:|
 | Figure 4: Primary gamma horizontal dose rates distribution |
 
-[Prev](castor-v21.md) [**.....**](shielding-evaluations.md)
+[Prev](castor-v21.md) [**.....**](shielding-evaluations.md) [Next](anthill-steel.md)
 
 # References
 1. International Commission on Radiological Protection., International Commission on Radiation Units,

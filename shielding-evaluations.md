@@ -29,9 +29,12 @@ The considered problems are brouth into a table by the next attributes of domina
 | [Ueki experiment (Type 3)](ueki-experiments.md) | - | + | - | - | - |
 | [Protvino labyrinth benchmark](protvino-labyrinth.md) | - | - | - | - | + |
 | [CASTOR-V/21 spent fuel cask](castor-v21.md) | + | + | + | + | - |
-| [Anthill storage model](anthill.md) | + | + | + | + | + |
+| [Concrete Anthill storage-like](anthill.md) | + | + | + | + | + |
+| [Steel Anthill storage-like](anthill-steel.md) | + | + | + | + | + |
 
 07.02.2025
+
+mod. 02.03.2025
 
 [**.....**](index.md)
 
