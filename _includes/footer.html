@@ -1,0 +1,33 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e8e8e8; padding-bottom: 15px;">
+
+      <div style="margin-right: 20px;">
+        <span class="p-name" style="font-weight: bold;">Vitaly Mogulian</span> |
+        <a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      </div>
+
+      <div style="display: flex; align-items: center;">
+        <a href="https://github.com/vitmog" target="_blank" style="margin-right: 15px; text-decoration: none;">
+          <svg class="svg-icon" style="width:16px; height:16px; vertical-align: middle;"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>
+          <span class="username">vitmog</span>
+        </a>
+
+        <a href="https://orcid.org/0009-0002-3967-040X" target="_blank" style="text-decoration: none;">
+          <span style="color: #A6CE39; font-weight: bold;">iD</span>
+          <span class="username">0009-0002-3967-040X</span>
+        </a>
+      </div>
+
+      <div style="font-style: italic; color: #828282; font-size: 0.9em;">
+        Monte Carlo techniques for physical simulation.
+      </div>
+    </div>
+
+    <div style="text-align: center; padding-top: 15px; font-size: 0.8em; color: #828282;">
+      &copy; 2025–{{ "now" | date: "%Y" }} Vitaly Mogulian. All rights reserved.
+      | Powered by Jekyll & Minimal. Assisted by Gemini.
+    </div>
+</footer>

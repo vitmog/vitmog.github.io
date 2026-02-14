@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div style="display: flex; align-items: flex-start;">
+
+  {%- include head-custom.html -%}
+
+  <article style="flex: 1; min-width: 0;">
+
+{% comment %}
+    {%- include shld-exmpl-navig.html -%}
+{% endcomment %}
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </article>
+
+</div>
