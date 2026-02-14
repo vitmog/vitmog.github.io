@@ -1,0 +1,27 @@
+{% assign nav = site.shld_exmpl_order %}
+{% for item in nav %}
+  {% if item == page.name | replace: ".md", "" %}
+    {% unless forloop.first %}
+      {% assign prev_index = forloop.index0 | minus: 1 %}
+      {% assign prev_page_name = nav[prev_index] %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next_index = forloop.index0 | plus: 1 %}
+      {% assign next_page_name = nav[next_index] %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+<div class="page-navigation">
+  {% if prev_page_name %}
+    <a href="{{ site.baseurl }}/{{ prev_page_name }}/">← Prev</a>
+  {% else %}
+    <span></span>
+  {% endif %}
+
+  <a href="{{ site.baseurl }}/shielding-evaluations/">↑ Up</a>
+
+  {% if next_page_name %}
+    <a href="{{ site.baseurl }}/{{ next_page_name }}/">Next →</a>
+  {% endif %}
+</div>

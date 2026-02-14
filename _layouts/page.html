@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{%- include head-custom.html -%}
+
+<div class="post-content-wrapper">
+
+  {%- if page.sidebar -%}
+    {%- include sidebar.html -%}
+  {%- endif -%}
+
+  <article>
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </article>
+
+  {%- if page.toc -%}
+    {%- include sidebar-right.html -%}
+  {%- endif -%}
+
+</div>
