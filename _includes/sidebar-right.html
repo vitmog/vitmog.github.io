@@ -1,0 +1,49 @@
+<nav class="site-sidebar-right" id="toc-sidebar" style="visibility:hidden;">
+</nav>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var sidebar = document.getElementById('toc-sidebar');
+  var headings = document.querySelectorAll('.post-content h2, .post-content h3, .post-content h4');
+  if (headings.length === 0) { sidebar.style.display = 'none'; return; }
+
+  var ul = document.createElement('ul');
+  ul.className = 'sidebar-nav-list';
+
+  headings.forEach(function(h) {
+    // Добавляем id если нет
+    if (!h.id) {
+      h.id = h.textContent.trim()
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, '')
+        .replace(/\s+/g, '-');
+    }
+
+    var li = document.createElement('li');
+    li.className = 'sidebar-item toc-item-' + h.tagName.toLowerCase();
+
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.className = 'sidebar-link';
+    a.textContent = h.textContent;
+
+    li.appendChild(a);
+    ul.appendChild(li);
+  });
+
+  sidebar.appendChild(ul);
+
+  // Подсвечиваем текущий раздел при скролле
+  var links = sidebar.querySelectorAll('a');
+  window.addEventListener('scroll', function() {
+    var fromTop = window.scrollY + 80;
+    var current = null;
+    headings.forEach(function(h) {
+      if (h.offsetTop <= fromTop) current = h.id;
+    });
+    links.forEach(function(a) {
+      a.classList.toggle('sidebar-current', a.getAttribute('href') === '#' + current);
+    });
+  });
+});
+</script>
