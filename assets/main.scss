@@ -1,0 +1,86 @@
+---
+---
+
+$brand-color: #2a7ae2; // Основной акцентный цвет темы
+
+$heading-color: #d45c11;
+
+@import "minima";
+
+body {
+//  background-color: #fcf5eb; // Цвет фона
+}
+
+.site-title {
+  &, &:visited {
+    color: #f2f2f2;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-color;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+  line-height: 1.3;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 1.5em;
+}
+
+.post-content {
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.4em; }
+  h3 { font-size: 1.2em; }
+  h4 { font-size: 1.0em; }
+}
+
+.p-name {
+    font-weight: bold;
+    color: #f2f2f2;
+}
+
+.site-header {
+  background-color: #0a2452;
+  min-height: 56px;
+}
+.site-footer {
+  background-color: #0a2452;
+  min-height: 56px;
+}
+
+// Изменение цвета ссылок в меню (навигации)
+.site-nav .page-link {
+  color: #f2f2f2;
+  &:hover {
+    color: #9e9d9d; // Цвет при наведении
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .site-nav .trigger {
+    background-color: #163b7a; /* Цвет выпадающего мобильного меню */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+}
+
+// Блок предупреждения
+.caution {
+  background-color: #fdff92;
+  border-left: 5px solid #fc3200;
+  padding: 10px;
+  margin: 15px 0;
+  color: #111;
+}
+
+

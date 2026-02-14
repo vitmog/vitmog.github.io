@@ -1,0 +1,34 @@
+#lightbox {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.85);
+    z-index: 9999999;
+    overflow: auto; /* Разрешает прокрутку */
+    cursor: pointer;
+    /* Центрирование через flexbox для корректного скролла */
+    align-items: center;
+    justify-content: center;
+}
+
+/* Переключаем на flex, когда скрипт меняет display */
+#lightbox[style*="display: flex"] {
+    display: flex !important;
+}
+
+#lightbox .img {
+    position: relative;
+    margin: auto; /* Центрирует изображение и позволяет скроллить во все стороны */
+    width: auto;
+    height: auto;
+    max-width: none;  /* Снимает ограничения по ширине */
+    max-height: none; /* Снимает ограничения по высоте */
+}
+
+#lightbox .img img {
+    display: block;
+    opacity: 0; /* Оставляем прозрачным, так как картинка идет фоном div-а */
+    pointer-events: none;
+    width: auto;
+}

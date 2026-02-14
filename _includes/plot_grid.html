@@ -1,0 +1,35 @@
+{%- assign col_count = include.cols | default: 3 -%}
+{%- assign col_width = 100 | divided_by: col_count -%}
+
+{%- if include.plots -%}
+<figure style="margin: 20px 0;">
+  <table style="width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed;" markdown="0">
+    <tbody>
+      {%- for plot in include.plots -%}
+        {%- assign modulo = forloop.index0 | modulo: col_count -%}
+        {%- if modulo == 0 -%}<tr>{%- endif -%}
+
+        <td style="padding: 10px; vertical-align: top; width: {{ col_width }}%;">
+          <a href="{{ site.baseurl }}{{ plot.path }}" target="_blank">
+            <img src="{{ site.baseurl }}{{ plot.path }}" alt="{{ plot.label }}" style="width: 100%; display: block; margin-bottom: 5px;" />
+          </a>
+          <div style="font-size: 0.85em; color: #555; line-height: 1.2;">
+            {{ plot.label }}
+          </div>
+        </td>
+
+        {%- assign next_index = forloop.index | modulo: col_count -%}
+        {%- if next_index == 0 or forloop.last -%}</tr>{%- endif -%}
+      {%- endfor -%}
+    </tbody>
+  </table>
+
+  {%- if include.caption -%}
+    <figcaption style="text-align: center; margin-top: 15px; font-weight: normal; font-size: 1em;">
+      {{ include.caption }} <strong>Clickable.</strong>
+    </figcaption>
+  {%- endif -%}
+</figure>
+{%- else -%}
+  <p style="color: red;">Error: No plots data provided to the include.</p>
+{%- endif -%}
