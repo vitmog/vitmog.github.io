@@ -1,0 +1,38 @@
+{% assign flat_nav = "" | split: "," %}
+{% for item in site.data.navigation.docs %}
+  {% assign flat_nav = flat_nav | push: item %}
+  {% if item.subpages %}
+    {% for sub in item.subpages %}
+      {% assign flat_nav = flat_nav | push: sub %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% for item in flat_nav %}
+  {% if item.url == page.url %}
+    {% assign currIndex = forloop.index0 %}
+    {% assign prevIndex = currIndex | minus: 1 %}
+    {% assign nextIndex = currIndex | plus: 1 %}
+
+    <hr style="margin-top: 40px;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.9em;">
+      <div>
+        {% if prevIndex >= 0 %}
+          <a href="{{ flat_nav[prevIndex].url | relative_url }}">← {{ flat_nav[prevIndex].title }}</a>
+        {% endif %}
+      </div>
+
+      <div>
+        {% if item.url contains 'anthill' or item.url contains 'castor' or item.url contains 'ueki' %}
+          <a href="{{ "/shielding-evaluations/" | relative_url }}" style="color: #828282;">↑ To List</a>
+        {% endif %}
+      </div>
+
+      <div>
+        {% if nextIndex < flat_nav.size %}
+          <a href="{{ flat_nav[nextIndex].url | relative_url }}">{{ flat_nav[nextIndex].title }} →</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
