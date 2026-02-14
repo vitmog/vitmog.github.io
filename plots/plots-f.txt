@@ -1,0 +1,277 @@
+
+ Directory of D:\pub\vitmog_jk\plots
+
+02-Sep-26  10:22                 0 plots-f.txt
+               1 File(s)              0 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\anthill
+
+02-Mar-25  21:23         1,263,110 g2_1.png
+24-Feb-25  17:45         3,166,154 g2_1_err.png
+02-Mar-25  21:23         1,271,050 g_1.png
+24-Feb-25  18:28           207,282 g_1_checker.png
+24-Feb-25  17:46         2,810,930 g_1_err.png
+24-Feb-25  18:37           165,248 g_1_rooms.png
+02-Mar-25  21:23         1,415,096 n_1.png
+24-Feb-25  18:29           214,883 n_1_checker.png
+24-Feb-25  17:46         2,725,398 n_1_err.png
+24-Feb-25  18:38           187,404 n_1_rooms.png
+02-Mar-25  21:23            57,858 xy.png
+              11 File(s)     13,484,413 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\anthill\thumbs
+
+01-Sep-26  19:27            38,478 g2_1.webp
+01-Sep-26  19:27            57,312 g2_1_err.webp
+01-Sep-26  19:27            36,536 g_1.webp
+01-Sep-26  19:27            21,774 g_1_checker.webp
+01-Sep-26  19:27            55,406 g_1_err.webp
+01-Sep-26  19:27            22,092 g_1_rooms.webp
+01-Sep-26  19:27            38,788 n_1.webp
+01-Sep-26  19:27            23,310 n_1_checker.webp
+01-Sep-26  19:27            57,536 n_1_err.webp
+01-Sep-26  19:27            24,162 n_1_rooms.webp
+01-Sep-26  19:27            21,852 xy.webp
+              11 File(s)        397,246 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\anthill-steel
+
+02-Mar-25  21:23         1,493,705 g2_1.png
+02-Mar-25  13:40         3,474,700 g2_1_err.png
+02-Mar-25  21:23         1,216,142 g_1.png
+02-Mar-25  13:42         3,169,961 g_1_err.png
+02-Mar-25  21:23         1,313,052 n_1.png
+02-Mar-25  13:41         2,990,771 n_1_err.png
+02-Mar-25  21:23            51,637 xy.png
+               7 File(s)     13,709,968 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\anthill-steel\thumbs
+
+01-Sep-26  19:27            54,324 g2_1.webp
+01-Sep-26  19:27            63,918 g2_1_err.webp
+01-Sep-26  19:27            33,078 g_1.webp
+01-Sep-26  19:27            65,494 g_1_err.webp
+01-Sep-26  19:27            45,038 n_1.webp
+01-Sep-26  19:27            58,736 n_1_err.webp
+01-Sep-26  19:27            23,800 xy.webp
+               7 File(s)        344,388 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\castor-v21\single
+
+27-Jan-25  18:53           417,808 g2_1.png
+27-Jan-25  18:55           802,502 g2_1_err.png
+27-Jan-25  18:54           407,074 g2_3.png
+27-Jan-25  18:54           782,268 g2_3_err.png
+27-Jan-25  18:10           222,654 g_1.png
+27-Jan-25  18:19           552,527 g_1_err.png
+27-Jan-25  18:19           607,683 g_2_err.png
+27-Jan-25  18:11           244,342 g_3.png
+27-Jan-25  18:19           609,527 g_3_err.png
+27-Jan-25  18:31           571,655 g_4.png
+22-Jan-25  17:31           703,030 g_4_spec.png
+22-Jan-25  17:32           741,887 g_4_spec_err.png
+27-Jan-25  18:20            79,491 g_5.png
+27-Jan-25  18:18           135,769 g_5_err.png
+27-Jan-25  18:53           295,447 n_1.png
+27-Jan-25  18:55           465,715 n_1_err.png
+27-Jan-25  18:51           292,593 n_3.png
+27-Jan-25  18:56           429,292 n_3_err.png
+29-Jan-25  21:53            82,609 n_5.png
+29-Jan-25  21:54           100,288 n_5_err.png
+07-Jan-25  17:12            76,929 xy.png
+              21 File(s)      8,621,090 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\castor-v21\single\thumbs
+
+01-Sep-26  19:27            50,004 g2_1.webp
+01-Sep-26  19:27            53,438 g2_1_err.webp
+01-Sep-26  19:27            42,474 g2_3.webp
+01-Sep-26  19:27            52,320 g2_3_err.webp
+01-Sep-26  19:27            30,314 g_1.webp
+01-Sep-26  19:27            52,892 g_1_err.webp
+01-Sep-26  19:27            55,232 g_2_err.webp
+01-Sep-26  19:27            25,660 g_3.webp
+01-Sep-26  19:27            55,726 g_3_err.webp
+01-Sep-26  19:27            33,584 g_4.webp
+01-Sep-26  19:27            31,040 g_4_spec.webp
+01-Sep-26  19:27            34,076 g_4_spec_err.webp
+01-Sep-26  19:27            20,628 g_5.webp
+01-Sep-26  19:27            34,030 g_5_err.webp
+01-Sep-26  19:27            41,008 n_1.webp
+01-Sep-26  19:27            46,010 n_1_err.webp
+01-Sep-26  19:27            35,824 n_3.webp
+01-Sep-26  19:27            45,066 n_3_err.webp
+01-Sep-26  19:27            22,164 n_5.webp
+01-Sep-26  19:27            26,710 n_5_err.webp
+01-Sep-26  19:27            34,128 xy.webp
+              21 File(s)        822,328 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\castor-v21\single-mult-src
+
+25-Feb-26  12:50         2,383,070 g_3_err_vtn1.apng
+25-Feb-26  12:51         2,394,182 g_3_err_vtn4.apng
+25-Feb-26  12:50         1,045,645 g_3_vtn1.apng
+25-Feb-26  12:50         1,052,130 g_3_vtn4.apng
+13-Feb-26  06:27            61,739 spectra-mult.png
+               5 File(s)      6,936,766 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\castor-v21\single-mult-src\thumbs
+
+01-Sep-26  19:27         1,059,174 g_3_err_vtn1.webp
+01-Sep-26  19:27         1,053,012 g_3_err_vtn4.webp
+01-Sep-26  19:27           602,106 g_3_vtn1.webp
+01-Sep-26  19:27           591,152 g_3_vtn4.webp
+01-Sep-26  19:27            11,022 spectra-mult.webp
+               5 File(s)      3,316,466 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\castor-v21\single-mult-thick
+
+25-Feb-26  12:51         3,888,076 g2_3.apng
+25-Feb-26  12:54         5,936,262 g2_3_err.apng
+25-Feb-26  12:51         1,769,165 g_3.apng
+25-Feb-26  12:53         4,288,641 g_3_err.apng
+25-Feb-26  12:50         2,667,645 n_3.apng
+25-Feb-26  12:52         3,975,118 n_3_err.apng
+               6 File(s)     22,524,907 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\castor-v21\single-mult-thick\thumbs
+
+01-Sep-26  19:27         1,811,474 g2_3.webp
+01-Sep-26  19:27         2,062,428 g2_3_err.webp
+01-Sep-26  19:28           905,978 g_3.webp
+01-Sep-26  19:28         1,560,964 g_3_err.webp
+01-Sep-26  19:28         1,244,060 n_3.webp
+01-Sep-26  19:28         1,590,662 n_3_err.webp
+               6 File(s)      9,175,566 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\castor-v21\single-perf-wall
+
+27-Jan-25  03:47           372,658 g_1.png
+27-Jan-25  03:48           603,161 g_1_err.png
+27-Jan-25  03:47           265,339 g_2.png
+27-Jan-25  03:48           433,600 g_2_err.png
+27-Jan-25  03:46           352,845 n_1.png
+27-Jan-25  03:48           559,379 n_1_err.png
+27-Jan-25  03:46           252,283 n_2.png
+27-Jan-25  03:48           416,572 n_2_err.png
+               8 File(s)      3,255,837 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\castor-v21\single-perf-wall\thumbs
+
+01-Sep-26  19:28            32,426 g_1.webp
+01-Sep-26  19:28            49,638 g_1_err.webp
+01-Sep-26  19:28            22,786 g_2.webp
+01-Sep-26  19:28            42,976 g_2_err.webp
+01-Sep-26  19:28            31,316 n_1.webp
+01-Sep-26  19:28            48,654 n_1_err.webp
+01-Sep-26  19:28            23,550 n_2.webp
+01-Sep-26  19:28            44,194 n_2_err.webp
+               8 File(s)        295,540 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\castor-v21\single-wall
+
+26-Jan-25  15:11           332,880 g_1.png
+26-Jan-25  15:12           773,606 g_1_err.png
+26-Jan-25  15:09           263,379 g_2.png
+26-Jan-25  15:12           418,782 g_2_err.png
+26-Jan-25  15:08           318,766 g_3.png
+26-Jan-25  15:12           493,010 g_3_err.png
+26-Jan-25  15:11           365,073 n_1.png
+26-Jan-25  15:13           721,345 n_1_err.png
+26-Jan-25  15:07           242,558 n_2.png
+26-Jan-25  15:13           367,235 n_2_err.png
+26-Jan-25  15:08           304,728 n_3.png
+26-Jan-25  15:12           456,032 n_3_err.png
+              12 File(s)      5,057,394 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\castor-v21\single-wall\thumbs
+
+01-Sep-26  19:28            38,392 g_1.webp
+01-Sep-26  19:28            53,304 g_1_err.webp
+01-Sep-26  19:28            22,540 g_2.webp
+01-Sep-26  19:28            41,720 g_2_err.webp
+01-Sep-26  19:28            22,322 g_3.webp
+01-Sep-26  19:28            43,882 g_3_err.webp
+01-Sep-26  19:28            38,690 n_1.webp
+01-Sep-26  19:28            52,362 n_1_err.webp
+01-Sep-26  19:28            23,176 n_2.webp
+01-Sep-26  19:28            41,520 n_2_err.webp
+01-Sep-26  19:28            22,786 n_3.webp
+01-Sep-26  19:28            42,384 n_3_err.webp
+              12 File(s)        443,078 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\labyrinth-protvino
+
+31-Aug-26  05:24            95,456 case5A-2.png
+31-Aug-26  05:25           189,353 case5A-2_err.png
+31-Jan-25  22:39           620,655 case5A.png
+31-Jan-25  22:42         1,342,387 case5A_err.png
+31-Jan-25  21:34           756,070 case6B.png
+31-Jan-25  21:35         1,436,413 case6B_err.png
+02-Dec-24  14:34            32,344 xy-5A.png
+02-Dec-24  14:33            32,291 xy-6B.png
+               8 File(s)      4,504,969 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\labyrinth-protvino\thumbs
+
+01-Sep-26  19:28            27,878 case5A-2.webp
+01-Sep-26  19:28            48,002 case5A-2_err.webp
+01-Sep-26  19:28            17,388 case5A.webp
+01-Sep-26  19:28            32,938 case5A_err.webp
+01-Sep-26  19:28            20,044 case6B.webp
+01-Sep-26  19:28            36,058 case6B_err.webp
+01-Sep-26  19:28             7,354 xy-5A.webp
+01-Sep-26  19:28             7,228 xy-6B.webp
+               8 File(s)        196,890 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\misc
+
+26-Dec-25  12:00           226,825 brand_collage_lin_reduced.png
+25-Dec-25  12:11           273,154 brand_collage_reduced.png
+28-Apr-23  14:53           334,831 mc10-05.14.png
+19-Feb-26  22:20            35,694 minicask-06.11.png
+10-Feb-26  17:16           145,451 tuk141_g_2016.png
+10-Feb-26  17:16           125,566 tuk141_n_2016.png
+06-Feb-26  15:29            72,424 tuk141_qt_plot_2016.png
+25-Feb-26  12:59           861,703 tuk141_tot_2016.apng
+04-Feb-26  16:55           100,603 tuk153_g_1_2018.png
+04-Feb-26  16:56           112,956 tuk153_g_2_2018.png
+04-Feb-26  16:55            96,348 tuk153_g_3_2018.png
+              11 File(s)      2,385,555 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\misc\thumbs
+
+01-Sep-26  19:28             6,580 brand_collage_lin_reduced.webp
+01-Sep-26  19:28            19,784 brand_collage_reduced.webp
+01-Sep-26  19:28            18,050 mc10-05.14.webp
+01-Sep-26  19:28            19,366 minicask-06.11.webp
+01-Sep-26  19:28            27,554 tuk141_g_2016.webp
+01-Sep-26  19:28            27,108 tuk141_n_2016.webp
+01-Sep-26  19:28            36,394 tuk141_qt_plot_2016.webp
+01-Sep-26  19:28           468,158 tuk141_tot_2016.webp
+01-Sep-26  19:28            16,602 tuk153_g_1_2018.webp
+01-Sep-26  19:28            20,316 tuk153_g_2_2018.webp
+01-Sep-26  19:28            19,138 tuk153_g_3_2018.webp
+              11 File(s)        679,050 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\ueki-experiments
+
+25-Feb-26  13:17         2,264,271 g2_1.apng
+25-Feb-26  13:19         3,398,110 g2_1_err.apng
+25-Feb-26  13:18         1,781,470 n_1.apng
+25-Feb-26  13:20         2,765,985 n_1_err.apng
+30-Jan-25  01:27            52,703 xz.png
+               5 File(s)     10,262,539 bytes
+
+ Directory of D:\pub\vitmog_jk\plots\ueki-experiments\thumbs
+
+01-Sep-26  19:28           750,622 g2_1.webp
+01-Sep-26  19:29         1,019,724 g2_1_err.webp
+01-Sep-26  19:29           635,124 n_1.webp
+01-Sep-26  19:29           940,552 n_1_err.webp
+01-Sep-26  19:29            11,130 xz.webp
+               5 File(s)      3,357,152 bytes
+
+     Total Files Listed:
+             189 File(s)    109,771,142 bytes
+               0 Dir(s)  329,642,995,712 bytes free
