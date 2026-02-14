@@ -1,0 +1,47 @@
+title: "Vitaly Mogulian"
+description: "Monte Carlo techniques for physical simulation"
+
+baseurl: ""
+url: "https://vitmog.github.io"
+
+author:
+  name: "Vitaly Mogulian"
+  email: "vm.pub@outlook.com"
+
+theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+use_math: true
+
+sass:
+  style: :compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+
+header_pages:
+  - index.md
+  - bio.md
+  - shielding.md
+
+shld_exmpl_order:
+  - ueki-experiments
+  - protvino-labyrinth
+  - castor-v21
+  - castor-v21-multi-thick
+  - castor-v21-multi-source
+  - anthill
+  - anthill-steel
+
+minima:
+  social_links:
+    - { platform: github, user_username: vitmog }
+    - { platform: orcid, user_username: "0009-0002-3967-040X" }

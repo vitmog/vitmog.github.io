@@ -1,0 +1,27 @@
+- title: Home
+  url: /
+  children:
+    - title: Background
+      url: /bio/
+    - title: Shielding Methodology
+      url: /shielding-evaluation-methodology/
+      children:
+        - title: History and Motivation
+          url: /brand-hist/
+        - title: Examples
+          url: /shielding-evaluations/
+          children:
+            - title: Ueki Experiments
+              url: /ueki-experiments/
+            - title: Protvino Labyrinth
+              url: /protvino-labyrinth/
+            - title: CASTOR V/21
+              url: /castor-v21/
+            - title: "CASTOR V/21 Multi-Thick"
+              url: /castor-v21-multi-thick/
+            - title: "CASTOR V/21 Multi-Source"
+              url: /castor-v21-multi-source/
+            - title: Concrete Anthill
+              url: /anthill/
+            - title: Steel Anthill
+              url: /anthill-steel/

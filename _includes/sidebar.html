@@ -1,0 +1,180 @@
+<nav class="site-sidebar" style="visibility:hidden;">
+<ul class="sidebar-nav-list">
+{%- for n1 in site.data.navigation -%}
+
+  {%- assign a1 = false -%}
+  {%- if page.url == n1.url -%}{%- assign a1 = true -%}{%- endif -%}
+  {%- for n2 in n1.children -%}
+    {%- if page.url == n2.url -%}{%- assign a1 = true -%}{%- endif -%}
+    {%- for n3 in n2.children -%}
+      {%- if page.url == n3.url -%}{%- assign a1 = true -%}{%- endif -%}
+      {%- for n4 in n3.children -%}
+        {%- if page.url == n4.url -%}{%- assign a1 = true -%}{%- endif -%}
+        {%- for n5 in n4.children -%}
+          {%- if page.url == n5.url -%}{%- assign a1 = true -%}{%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+    {%- endfor -%}
+  {%- endfor -%}
+
+  <li class="sidebar-item{% if a1 %} open{% endif %}">
+    {%- if n1.children -%}
+      <div class="sidebar-row">
+        <a href="{{ n1.url | relative_url }}" class="sidebar-link{% if page.url == n1.url %} sidebar-current{% endif %}">{{ n1.title }}</a>
+        <button class="sidebar-btn" aria-label="toggle">⋯</button>
+      </div>
+      <div class="sidebar-children{% if a1 %} open{% endif %}">
+        <ul class="sidebar-nav-list" style="padding-left:14px;">
+        {%- for n2 in n1.children -%}
+
+          {%- assign a2 = false -%}
+          {%- if page.url == n2.url -%}{%- assign a2 = true -%}{%- endif -%}
+          {%- for n3 in n2.children -%}
+            {%- if page.url == n3.url -%}{%- assign a2 = true -%}{%- endif -%}
+            {%- for n4 in n3.children -%}
+              {%- if page.url == n4.url -%}{%- assign a2 = true -%}{%- endif -%}
+              {%- for n5 in n4.children -%}
+                {%- if page.url == n5.url -%}{%- assign a2 = true -%}{%- endif -%}
+              {%- endfor -%}
+            {%- endfor -%}
+          {%- endfor -%}
+
+          <li class="sidebar-item{% if a2 %} open{% endif %}">
+            {%- if n2.children -%}
+              <div class="sidebar-row">
+                <a href="{{ n2.url | relative_url }}" class="sidebar-link{% if page.url == n2.url %} sidebar-current{% endif %}">{{ n2.title }}</a>
+                <button class="sidebar-btn" aria-label="toggle">⋯</button>
+              </div>
+              <div class="sidebar-children{% if a2 %} open{% endif %}">
+                <ul class="sidebar-nav-list" style="padding-left:14px;">
+                {%- for n3 in n2.children -%}
+
+                  {%- assign a3 = false -%}
+                  {%- if page.url == n3.url -%}{%- assign a3 = true -%}{%- endif -%}
+                  {%- for n4 in n3.children -%}
+                    {%- if page.url == n4.url -%}{%- assign a3 = true -%}{%- endif -%}
+                    {%- for n5 in n4.children -%}
+                      {%- if page.url == n5.url -%}{%- assign a3 = true -%}{%- endif -%}
+                    {%- endfor -%}
+                  {%- endfor -%}
+
+                  <li class="sidebar-item{% if a3 %} open{% endif %}">
+                    {%- if n3.children -%}
+                      <div class="sidebar-row">
+                        <a href="{{ n3.url | relative_url }}" class="sidebar-link{% if page.url == n3.url %} sidebar-current{% endif %}">{{ n3.title }}</a>
+                        <button class="sidebar-btn" aria-label="toggle">⋯</button>
+                      </div>
+                      <div class="sidebar-children{% if a3 %} open{% endif %}">
+                        <ul class="sidebar-nav-list" style="padding-left:14px;">
+                        {%- for n4 in n3.children -%}
+
+                          {%- assign a4 = false -%}
+                          {%- if page.url == n4.url -%}{%- assign a4 = true -%}{%- endif -%}
+                          {%- for n5 in n4.children -%}
+                            {%- if page.url == n5.url -%}{%- assign a4 = true -%}{%- endif -%}
+                          {%- endfor -%}
+
+                          <li class="sidebar-item{% if a4 %} open{% endif %}">
+                            {%- if n4.children -%}
+                              <div class="sidebar-row">
+                                <a href="{{ n4.url | relative_url }}" class="sidebar-link{% if page.url == n4.url %} sidebar-current{% endif %}">{{ n4.title }}</a>
+                                <button class="sidebar-btn" aria-label="toggle">⋯</button>
+                              </div>
+                              <div class="sidebar-children{% if a4 %} open{% endif %}">
+                                <ul class="sidebar-nav-list" style="padding-left:14px;">
+                                {%- for n5 in n4.children -%}
+                                  <li class="sidebar-item">
+                                    <a href="{{ n5.url | relative_url }}" class="sidebar-link{% if page.url == n5.url %} sidebar-current{% endif %}">{{ n5.title }}</a>
+                                  </li>
+                                {%- endfor -%}
+                                </ul>
+                              </div>
+                            {%- else -%}
+                              <a href="{{ n4.url | relative_url }}" class="sidebar-link{% if page.url == n4.url %} sidebar-current{% endif %}">{{ n4.title }}</a>
+                            {%- endif -%}
+                          </li>
+
+                        {%- endfor -%}
+                        </ul>
+                      </div>
+                    {%- else -%}
+                      <a href="{{ n3.url | relative_url }}" class="sidebar-link{% if page.url == n3.url %} sidebar-current{% endif %}">{{ n3.title }}</a>
+                    {%- endif -%}
+                  </li>
+
+                {%- endfor -%}
+                </ul>
+              </div>
+            {%- else -%}
+              <a href="{{ n2.url | relative_url }}" class="sidebar-link{% if page.url == n2.url %} sidebar-current{% endif %}">{{ n2.title }}</a>
+            {%- endif -%}
+          </li>
+
+        {%- endfor -%}
+        </ul>
+      </div>
+    {%- else -%}
+      <a href="{{ n1.url | relative_url }}" class="sidebar-link{% if page.url == n1.url %} sidebar-current{% endif %}">{{ n1.title }}</a>
+    {%- endif -%}
+  </li>
+
+{%- endfor -%}
+</ul>
+</nav>
+
+<script>
+document.querySelectorAll('.sidebar-btn').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var item = btn.closest('.sidebar-item');
+    var children = item.querySelector('.sidebar-children');
+    var isOpen = children.classList.contains('open');
+    children.classList.toggle('open', !isOpen);
+    item.classList.toggle('open', !isOpen);
+    btn.classList.toggle('active', !isOpen);
+  });
+});
+
+function positionSidebars() {
+  var wrapper = document.querySelector('.wrapper');
+  if (!wrapper) return;
+  var rect = wrapper.getBoundingClientRect();
+  var header = document.querySelector('.site-header');
+  var headerHeight = header ? header.offsetHeight : 0;
+  var topPos = headerHeight + 20;
+
+  var footer = document.querySelector('.site-footer');
+  var footerTop = footer ? footer.getBoundingClientRect().top : window.innerHeight;
+  var maxH = Math.max(50, footerTop - topPos - 20);
+
+  var sidebarLeft = document.querySelector('.site-sidebar');
+  if (sidebarLeft) {
+    var leftPos = rect.left - 224;
+    if (leftPos < 8) {
+      sidebarLeft.style.visibility = 'hidden';
+    } else {
+      sidebarLeft.style.left = leftPos + 'px';
+      sidebarLeft.style.top = topPos + 'px';
+      sidebarLeft.style.maxHeight = maxH + 'px';
+      sidebarLeft.style.visibility = 'visible';
+    }
+  }
+
+  var sidebarRight = document.querySelector('.site-sidebar-right');
+  if (sidebarRight) {
+    var rightPos = rect.right + 24;
+    if (rightPos + 200 > window.innerWidth - 8) {
+      sidebarRight.style.visibility = 'hidden';
+    } else {
+      sidebarRight.style.left = rightPos + 'px';
+      sidebarRight.style.top = topPos + 'px';
+      sidebarRight.style.maxHeight = maxH + 'px';
+      sidebarRight.style.visibility = 'visible';
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', positionSidebars);
+window.addEventListener('load', positionSidebars);
+window.addEventListener('resize', positionSidebars);
+window.addEventListener('scroll', positionSidebars);
+</script>
