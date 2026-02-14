@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# .githooks/pre-commit
+set -euo pipefail
+
+# Прогоняем генерацию превью только если есть изменения в plots/ или скриптах
+if [ -n "$(git diff --cached --name-only -- 'plots/' ':(glob)**/pre-commit' ':(glob)**/generate-thumbs.sh')" ]; then
+  echo "Обновляю превью в plots/..."
+  ./scripts/generate-thumbs.sh
+  git add plots
+fi
